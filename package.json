@@ -1,0 +1,32 @@
+{
+  "name": "docker-php-laravel-ci-glue",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Docker image for Laravel stack (for CI environment) + Glue",
+  "main": "build.js",
+  "wf-docker": {
+    "image": "pionl/docker-php-laravel-ci-glue",
+    "tags": [
+      "7.4-node-14",
+      "7.4-node-10",
+      "7.2-node-14-composer-2",
+      "7.2-node-14-composer-1"
+    ],
+    "run": [
+      "php --version",
+      "node --version",
+      "npm --version",
+      "glue --version"
+    ]
+  },
+  "author": "Martin Kluska <martin@kluska.cz",
+  "license": "MIT",
+  "scripts": {
+    "build": "./node_modules/.bin/wf-docker build",
+    "build-push": "./node_modules/.bin/wf-docker build-push",
+    "push": "./node_modules/.bin/wf-docker push"
+  },
+  "dependencies": {
+    "wf-docker": "1.0.0"
+  }
+}

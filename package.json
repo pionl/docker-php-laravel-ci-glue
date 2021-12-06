@@ -27,6 +27,6 @@
     "push": "./node_modules/.bin/wf-docker push"
   },
   "dependencies": {
-    "wf-docker": "1.0.0"
+    "wf-docker": "1.0.2"
   }
 }

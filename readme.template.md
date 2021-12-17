@@ -1,8 +1,5 @@
 # --DESCRIPTION--
 
-![https://cloud.docker.com/u/pionl/repository/docker/--IMAGE_NAME--](https://img.shields.io/docker/stars/--IMAGE_NAME--?style=flat-square)
-![https://cloud.docker.com/u/pionl/repository/docker/--IMAGE_NAME--](https://img.shields.io/docker/pulls/--IMAGE_NAME--?style=flat-square)
-![https://github.com/--IMAGE_NAME--](https://img.shields.io/github/license/--IMAGE_NAME--?style=flat-square)
 
 A docker image for your Laravel application with PHP with Glue installed. Image uses 
 [pionl/docker-php-laravel-ci image](https://github.com/pionl/docker-php-laravel-ci).
@@ -28,6 +25,7 @@ image: --IMAGE_NAME--:7.2
 
 ### Tags
 
+![https://github.com/--IMAGE_NAME--](https://img.shields.io/github/license/--IMAGE_NAME--?style=flat-square)
 --TAGS--
 
 ## Built With
@@ -44,7 +42,7 @@ image: --IMAGE_NAME--:7.2
 
 ## Contributions
 
-1. Run `npm install`
+1. Run `npm install` or install [wf-docker](https://github.com/wrk-flow/wf-docker) globally.
 2. Change the `Dockerfile.template`
 3. For new php versions edit `package.json` and `wf-docker.tags` property
 4. Use `npm run build` to build image

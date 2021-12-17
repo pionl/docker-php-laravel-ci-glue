@@ -1,8 +1,5 @@
 # Docker image for Laravel stack (for CI environment) + Glue
 
-![https://cloud.docker.com/u/pionl/repository/docker/pionl/docker-php-laravel-ci-glue](https://img.shields.io/docker/stars/pionl/docker-php-laravel-ci-glue?style=flat-square)
-![https://cloud.docker.com/u/pionl/repository/docker/pionl/docker-php-laravel-ci-glue](https://img.shields.io/docker/pulls/pionl/docker-php-laravel-ci-glue?style=flat-square)
-![https://github.com/pionl/docker-php-laravel-ci-glue](https://img.shields.io/github/license/pionl/docker-php-laravel-ci-glue?style=flat-square)
 
 A docker image for your Laravel application with PHP with Glue installed. Image uses 
 [pionl/docker-php-laravel-ci image](https://github.com/pionl/docker-php-laravel-ci).
@@ -28,12 +25,15 @@ image: pionl/docker-php-laravel-ci-glue:7.2
 
 ### Tags
 
+![https://github.com/pionl/docker-php-laravel-ci-glue](https://img.shields.io/github/license/pionl/docker-php-laravel-ci-glue?style=flat-square)
+![](https://img.shields.io/docker/pulls/pionl/docker-php-laravel-ci-glue?style=flat-square) ![](https://img.shields.io/docker/stars/pionl/docker-php-laravel-ci-glue?style=flat-square)
+
 Image | Badges
  --- | ---
-**pionl/docker-php-laravel-ci-glue:7.4-node-14** | ![](https://img.shields.io/microbadger/layers/pionl/docker-php-laravel-ci-glue:7.4-node-14?style=flat-square) ![](https://img.shields.io/microbadger/image-size/pionl/docker-php-laravel-ci-glue:7.4-node-14?style=flat-square)
-**pionl/docker-php-laravel-ci-glue:7.4-node-10** | ![](https://img.shields.io/microbadger/layers/pionl/docker-php-laravel-ci-glue:7.4-node-10?style=flat-square) ![](https://img.shields.io/microbadger/image-size/pionl/docker-php-laravel-ci-glue:7.4-node-10?style=flat-square)
-**pionl/docker-php-laravel-ci-glue:7.2-node-14-composer-2** | ![](https://img.shields.io/microbadger/layers/pionl/docker-php-laravel-ci-glue:7.2-node-14-composer-2?style=flat-square) ![](https://img.shields.io/microbadger/image-size/pionl/docker-php-laravel-ci-glue:7.2-node-14-composer-2?style=flat-square)
-**pionl/docker-php-laravel-ci-glue:7.2-node-14-composer-1** | ![](https://img.shields.io/microbadger/layers/pionl/docker-php-laravel-ci-glue:7.2-node-14-composer-1?style=flat-square) ![](https://img.shields.io/microbadger/image-size/pionl/docker-php-laravel-ci-glue:7.2-node-14-composer-1?style=flat-square)
+**pionl/docker-php-laravel-ci-glue:7.4-node-14** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.4-node-14?style=flat-square)
+**pionl/docker-php-laravel-ci-glue:7.4-node-10** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.4-node-10?style=flat-square)
+**pionl/docker-php-laravel-ci-glue:7.2-node-14-composer-2** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.2-node-14-composer-2?style=flat-square)
+**pionl/docker-php-laravel-ci-glue:7.2-node-14-composer-1** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.2-node-14-composer-1?style=flat-square)
 
 
 ## Built With
@@ -50,7 +50,7 @@ Image | Badges
 
 ## Contributions
 
-1. Run `npm install`
+1. Run `npm install` or install [wf-docker](https://github.com/wrk-flow/wf-docker) globally.
 2. Change the `Dockerfile.template`
 3. For new php versions edit `package.json` and `wf-docker.tags` property
 4. Use `npm run build` to build image

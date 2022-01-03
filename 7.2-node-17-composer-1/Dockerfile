@@ -1,4 +1,4 @@
-FROM pionl/docker-php-laravel-ci:7.2-node-14-composer-2
+FROM pionl/docker-php-laravel-ci:7.2-node-17-composer-1
 
 MAINTAINER Martin Kluska <martin@kluska.cz>
 

@@ -7,9 +7,14 @@
   "wf-docker": {
     "image": "pionl/docker-php-laravel-ci-glue",
     "tags": [
+      "8.1-node-17",
+      "8.0-node-17",
+      "7.4-node-17",
       "7.4-node-14",
       "7.4-node-10",
-      "7.2-node-14-composer-2",
+      "7.2-node-17",
+      "7.2-node-17-composer-1",
+      "7.2-node-14",
       "7.2-node-14-composer-1"
     ],
     "run": [
@@ -27,6 +32,6 @@
     "push": "./node_modules/.bin/wf-docker push"
   },
   "dependencies": {
-    "wf-docker": "1.0.2"
+    "wf-docker": "1.0.3"
   }
 }

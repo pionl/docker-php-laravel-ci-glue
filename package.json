@@ -7,6 +7,8 @@
   "wf-docker": {
     "image": "pionl/docker-php-laravel-ci-glue",
     "tags": [
+      "8.2-node-18",
+      "8.1-node-18",
       "8.1-node-17",
       "8.0-node-17",
       "7.4-node-17",

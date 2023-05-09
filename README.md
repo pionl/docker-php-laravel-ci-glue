@@ -30,6 +30,8 @@ image: pionl/docker-php-laravel-ci-glue:7.2
 
 Image | Badges
  --- | ---
+**pionl/docker-php-laravel-ci-glue:8.2-node-18** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/8.2-node-18?style=flat-square)
+**pionl/docker-php-laravel-ci-glue:8.1-node-18** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/8.1-node-18?style=flat-square)
 **pionl/docker-php-laravel-ci-glue:8.1-node-17** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/8.1-node-17?style=flat-square)
 **pionl/docker-php-laravel-ci-glue:8.0-node-17** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/8.0-node-17?style=flat-square)
 **pionl/docker-php-laravel-ci-glue:7.4-node-17** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.4-node-17?style=flat-square)

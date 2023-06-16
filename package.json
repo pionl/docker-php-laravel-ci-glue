@@ -10,14 +10,7 @@
       "8.2-node-18",
       "8.1-node-18",
       "8.1-node-17",
-      "8.0-node-17",
-      "7.4-node-17",
-      "7.4-node-14",
-      "7.4-node-10",
-      "7.2-node-17",
-      "7.2-node-17-composer-1",
-      "7.2-node-14",
-      "7.2-node-14-composer-1"
+      "8.0-node-17"
     ],
     "run": [
       "php --version",

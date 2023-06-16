@@ -20,7 +20,7 @@ docker run pionl/docker-php-laravel-ci-glue:7.2 glue --version
 Gitlab CI usage
 
 ```shell
-image: pionl/docker-php-laravel-ci-glue:7.2
+image: pionl/docker-php-laravel-ci-glue:8.2-node-18
 ```
 
 ### Tags
@@ -34,6 +34,9 @@ Image | Badges
 **pionl/docker-php-laravel-ci-glue:8.1-node-18** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/8.1-node-18?style=flat-square)
 **pionl/docker-php-laravel-ci-glue:8.1-node-17** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/8.1-node-17?style=flat-square)
 **pionl/docker-php-laravel-ci-glue:8.0-node-17** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/8.0-node-17?style=flat-square)
+
+### Deprecated tags
+
 **pionl/docker-php-laravel-ci-glue:7.4-node-17** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.4-node-17?style=flat-square)
 **pionl/docker-php-laravel-ci-glue:7.4-node-14** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.4-node-14?style=flat-square)
 **pionl/docker-php-laravel-ci-glue:7.4-node-10** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.4-node-10?style=flat-square)
@@ -41,7 +44,6 @@ Image | Badges
 **pionl/docker-php-laravel-ci-glue:7.2-node-17-composer-1** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.2-node-17-composer-1?style=flat-square)
 **pionl/docker-php-laravel-ci-glue:7.2-node-14** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.2-node-14?style=flat-square)
 **pionl/docker-php-laravel-ci-glue:7.2-node-14-composer-1** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.2-node-14-composer-1?style=flat-square)
-
 
 ## Built With
 

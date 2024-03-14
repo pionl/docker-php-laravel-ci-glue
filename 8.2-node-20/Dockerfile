@@ -1,7 +1,6 @@
-FROM pionl/docker-php-laravel-ci:8.2-node-20
+FROM --platform=linux/amd64 pionl/docker-php-laravel-ci:8.2-node-20
 
 MAINTAINER Martin Kluska <martin@kluska.cz>
-
 
 ########################################################################################################################
 ##### Python with glue depedencies

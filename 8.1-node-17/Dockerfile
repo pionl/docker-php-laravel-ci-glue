@@ -1,7 +1,6 @@
-FROM pionl/docker-php-laravel-ci:8.1-node-17
+FROM --platform=linux/amd64 pionl/docker-php-laravel-ci:8.1-node-17
 
 MAINTAINER Martin Kluska <martin@kluska.cz>
-
 
 ########################################################################################################################
 ##### Python with glue depedencies

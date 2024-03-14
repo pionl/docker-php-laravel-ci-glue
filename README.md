@@ -1,6 +1,6 @@
 # Docker image for Laravel stack (for CI environment) + Glue
 
-A docker image for your Laravel application with PHP with Glue installed. Image uses 
+A docker image `linux/amd64` for your Laravel application with PHP with Glue installed. Image uses 
 [pionl/docker-php-laravel-ci image](https://github.com/pionl/docker-php-laravel-ci).
 
 ## Glue

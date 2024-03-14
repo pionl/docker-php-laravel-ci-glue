@@ -1,6 +1,5 @@
 # --DESCRIPTION--
 
-
 A docker image for your Laravel application with PHP with Glue installed. Image uses 
 [pionl/docker-php-laravel-ci image](https://github.com/pionl/docker-php-laravel-ci).
 
@@ -12,7 +11,7 @@ Glue is a simple command line tool to generate sprites using any kind of source 
 
 ## Usage
 ```
-docker run --IMAGE_NAME--:7.2 glue --version
+docker run --IMAGE_NAME--:8.2-node-18 --version
 ```
 
 ### Gitlab CI usage
@@ -27,15 +26,18 @@ image: --IMAGE_NAME--:8.2-node-18
 
 ![https://github.com/--IMAGE_NAME--](https://img.shields.io/github/license/--IMAGE_NAME--?style=flat-square)
 --TAGS--
+
 ### Deprecated tags
 
-**pionl/docker-php-laravel-ci-glue:7.4-node-17** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.4-node-17?style=flat-square)
-**pionl/docker-php-laravel-ci-glue:7.4-node-14** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.4-node-14?style=flat-square)
-**pionl/docker-php-laravel-ci-glue:7.4-node-10** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.4-node-10?style=flat-square)
-**pionl/docker-php-laravel-ci-glue:7.2-node-17** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.2-node-17?style=flat-square)
-**pionl/docker-php-laravel-ci-glue:7.2-node-17-composer-1** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.2-node-17-composer-1?style=flat-square)
-**pionl/docker-php-laravel-ci-glue:7.2-node-14** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.2-node-14?style=flat-square)
-**pionl/docker-php-laravel-ci-glue:7.2-node-14-composer-1** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.2-node-14-composer-1?style=flat-square)
+| Image                                                       | Badges                                                                                                                  |
+|-------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| **pionl/docker-php-laravel-ci-glue:7.4-node-17**            | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.4-node-17?style=flat-square)            |
+| **pionl/docker-php-laravel-ci-glue:7.4-node-14**            | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.4-node-14?style=flat-square)            |
+| **pionl/docker-php-laravel-ci-glue:7.4-node-10**            | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.4-node-10?style=flat-square)            |
+| **pionl/docker-php-laravel-ci-glue:7.2-node-17**            | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.2-node-17?style=flat-square)            |
+| **pionl/docker-php-laravel-ci-glue:7.2-node-17-composer-1** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.2-node-17-composer-1?style=flat-square) |
+| **pionl/docker-php-laravel-ci-glue:7.2-node-14**            | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.2-node-14?style=flat-square)            |
+| **pionl/docker-php-laravel-ci-glue:7.2-node-14-composer-1** | ![](https://img.shields.io/docker/image-size/pionl/docker-php-laravel-ci-glue/7.2-node-14-composer-1?style=flat-square) |
 
 ## Built With
 
